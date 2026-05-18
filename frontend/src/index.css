@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #f5f7fb;
+  font-family: 'Inter', sans-serif;
+}
+
+input,
+select {
+  transition: all 0.2s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.1);
+}
+
+button {
+  transition: all 0.2s ease;
+}
